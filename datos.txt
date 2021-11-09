@@ -1,11 +1,21 @@
+Gabriel Lopez
 mié 03 nov 2021 22:50:47 -03
-
 192.168.1.36
 
+<<<<<<< HEAD
 Stefano Mugetti
 
 lun 09 nov 2021 00:15:26
 
 181.89.104.150
 
+=======
+valentin, laplume
+181.228.236.64
+23:59
+
+Stefano Mugetti
+lun 09 nov 2021 00:25:42
+181.89.104.150
+>>>>>>> Lopez
 
