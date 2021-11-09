@@ -52,3 +52,32 @@ git push origin Mugetti
 
 (Se pusheó correctamente a la rama Mugetti las modificaciones realizadas al archivo Beta.txt).
 
+G) Comandos punto 8 (ALFA) :
+
+-git pull https://github.com/stefanomugetti/TP_SO_i3_103.git
+
+-git checkout main
+
+(Me traje la rama Mugetti)
+-git pull
+
+-git checkout Mugetti
+
+(Agrego nombre al archivo beta.txt)
+-echo "Valentin Laplume" >>  beta.txt
+
+(Agrego la devolución del comando ifconfig al archivo beta.txt)
+ifconfig >> beta.txt
+
+(Agrego la fecha al archivo beta.txt)
+date >> beta.txt
+
+chmod 777 beta.txt
+
+git add -A
+
+git commit -m "Modifico archivo beta.txt"
+
+git push origin Mugetti
+
+(Se pusheó correctamente a la rama Mugetti las modificaciones realizadas al archivo Beta.txt).
