@@ -1,3 +1,4 @@
+Stefano Mugetti
 enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 192.168.1.42  netmask 255.255.255.0  broadcast 192.168.1.255
         inet6 fe80::469:7414:3a9b:a874  prefixlen 64  scopeid 0x20<link>
@@ -36,3 +37,24 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 mar 09 nov 2021 01:26:48 -03
+
+Valentin, Laplume
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.113  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::221:98b5:1789:39ec  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:6b:54:15  txqueuelen 1000  (Ethernet)
+        RX packets 95810  bytes 121511149 (121.5 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 26806  bytes 4749333 (4.7 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 4375  bytes 428811 (428.8 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 4375  bytes 428811 (428.8 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+mar 09 nov 2021 01:31:44 -03
