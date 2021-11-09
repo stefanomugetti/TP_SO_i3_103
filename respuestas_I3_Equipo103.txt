@@ -1,0 +1,8 @@
+Stefano Mugetti
+Gabriel Lopez
+Valentin Laplume
+
+a-El master queda totalmente actualizado, con los cambios realizados en las ramas que se crearon para realizar los distintos puntos de la interaccion.
+b-Si, beta estaba al tanto durante todo el proceso de los cambios que surgian.
+c-Parado en la rama main con el comando:git checkout main, utilice el comando git branch [nombreDeLaRamaAlternativa]
+
