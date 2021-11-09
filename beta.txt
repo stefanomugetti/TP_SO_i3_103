@@ -16,3 +16,23 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         TX packets 159  bytes 13447 (13.4 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
+Gabriel Lopez
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 10.0.2.15  netmask 255.255.255.0  broadcast 10.0.2.255
+        inet6 fe80::18cf:c5c4:fad9:b857  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:62:dd:b4  txqueuelen 1000  (Ethernet)
+        RX packets 4122  bytes 3026675 (3.0 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 3217  bytes 411456 (411.4 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Bucle local)
+        RX packets 1483  bytes 160183 (160.1 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1483  bytes 160183 (160.1 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+mar 09 nov 2021 01:26:48 -03
