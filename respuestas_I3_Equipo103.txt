@@ -2,7 +2,53 @@ Stefano Mugetti
 Gabriel Lopez
 Valentin Laplume
 
-a-El master queda totalmente actualizado, con los cambios realizados en las ramas que se crearon para realizar los distintos puntos de la interaccion.
-b-Si, beta estaba al tanto durante todo el proceso de los cambios que surgian.
-c-Parado en la rama main con el comando:git checkout main, utilice el comando git branch [nombreDeLaRamaAlternativa]
+a-El master queda totalmente actualizado, con los cambios 
+realizados en las ramas que se crearon para realizar los distintos 
+puntos de la interaccion.
+
+b-Si, beta estaba al tanto durante todo el proceso de los 
+cambios que surgian.
+
+c-Parado en la rama main con el comando:git checkout main, 
+utilice el comando git branch [nombreDeLaRamaAlternativa]
+
+d- Las ramas creadas por Beta y Gamma quedan con los 
+ultimos datos pusheados a cada una de ESAS ramas. 
+Si yo hago el push a una rama distinta de las creadas por Beta y Gamma, 
+claramente no se "actualizarán".
+
+e- Al hacer el 2do merge se hizo de manera invertida, es decir, 
+todos los datos de la rama main fueron borrados y pisados por la rama Mugetti. 
+Afortunadamente nuestro compañero Mugetti tenia un backup del proyecto 
+actualizado que utilizó y pusheó para recuperar los archivos que fueron pisados.
+
+f-Los comandos del punto 7 para realizar lo pedido fueron los siguientes:
+
+7) 
+
+git pull https://github.com/stefanomugetti/TP_SO_i3_103.git
+
+git checkout main
+
+(Me traje la rama Mugetti)
+git pull
+
+git checkout Mugetti
+
+(Agrego nombre al archivo beta.txt)
+echo "Gabriel Lopez" >>  /home/gabriel/Escritorio/TP_SO_i3_103/beta.txt
+
+(Agrego la devolución del comando ifconfig al archivo beta.txt)
+ifconfig >> beta.txt
+
+(Agrego la fecha al archivo beta.txt)
+date >> beta.txt
+
+git add -A
+
+git commit -m "Modifico archivo beta.txt"
+
+git push origin Mugetti
+
+(Se pusheó correctamente a la rama Mugetti las modificaciones realizadas al archivo Beta.txt).
 
